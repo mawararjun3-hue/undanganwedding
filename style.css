@@ -475,8 +475,8 @@ body.autoing .dock{backdrop-filter:none}
 .dove .eye,.dp .eye{fill:#8c1f3a;stroke:none}
 .dove .ft,.dp .ft{fill:none;stroke:rgba(214,120,145,.55);stroke-width:.9;stroke-linecap:round}
 .wf,.wb{transform-box:view-box}
-.wf{transform-origin:54px 52px;transform:rotate(-8deg)}
-.wb{transform-origin:52px 56px}
+.wf{transform-origin:52px 49px;transform:rotate(-8deg)}
+.wb{transform-origin:50px 52px}
 .fly .wf{animation:flapU .5s ease-in-out infinite alternate}
 .fly .wb{animation:flapD .5s ease-in-out infinite alternate}
 @keyframes flapU{from{transform:rotate(12deg)}to{transform:rotate(-34deg)}}

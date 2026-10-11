@@ -447,11 +447,11 @@ secToNav.forEach((a, id) => nio.observe($("#" + id)));
 /* ============ Merpati terbang & merpati berpasangan ============ */
 function doveSVG(fly) {
   return `<svg class="${fly ? "fly" : ""}" viewBox="0 0 120 80" aria-hidden="true">
-<g class="wb"><path d="M54 56C50 66 40 74 22 77C30 68 36 60 42 53Z"/></g>
-<path d="M18 55L2 47L7 56L2 65L21 62Z"/>
-<path d="M12 56C16 47 30 44 46 42C60 40 70 34 78 31C78 22 85 17 93 19C99 21 101 26 100 29L109 33L100 36C99 40 100 46 100 52C100 62 88 71 68 71C44 73 20 68 12 56Z"/>
-<circle cx="91" cy="27" r="1.6" class="eye"/>
-<g class="wf"><path d="M54 52C49 33 38 16 13 4C16 21 23 36 33 49C40 56 49 57 54 52Z"/><path class="ft" d="M47 47C41 34 31 20 17 10M39 50C35 40 29 30 22 22"/></g>
+<g class="wb"><path d="M52 52C46 64 36 72 18 76C27 66 33 58 40 50Z"/></g>
+<path d="M14 53L0 47L5 54L1 61L17 57Z"/>
+<path d="M6 54C18 50 30 52 44 49C58 46 70 41 79 36C80 30 85 27 90 29L99 32L91 35C91 42 84 50 70 56C54 62 30 62 6 54Z"/>
+<circle cx="87" cy="33" r="1.4" class="eye"/>
+<g class="wf"><path d="M52 49C47 31 36 15 12 3C15 19 22 33 31 46C38 53 46 54 52 49Z"/><path class="ft" d="M45 45C39 32 29 19 16 9M37 48C33 38 27 28 21 20"/></g>
 </svg>`;
 }
 const HEART = '<svg class="dp-h" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
