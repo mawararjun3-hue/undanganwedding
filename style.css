@@ -510,3 +510,5 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webki
 /* saat gulir otomatis aktif, tetap tanpa blur supaya mulus */
 body.autoing .rv,body.autoing .w,body.autoing .ch{filter:none}
 @media(prefers-reduced-motion:reduce){.rv,.w,.ch{filter:none!important}}
+/* nama orang tua: pecah baris per nama, bukan di tengah nama */
+.person .pr{white-space:nowrap}
